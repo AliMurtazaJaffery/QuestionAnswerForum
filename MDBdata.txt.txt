@@ -1,0 +1,39 @@
+questions collection
+example json
+{
+    "_id" : ObjectId("5fcca078d46c6525c877cba6"),
+    "answers" : [ 
+        ObjectId("5fcca079d46c6525c877cba7"), 
+        ObjectId("5fccbd391c87e52e1ce92ea6"), 
+        ObjectId("5fccbd7b1c87e52e1ce92ea7"), 
+        ObjectId("5fccbd8f1c87e52e1ce92ea8")
+    ],
+    "up" : [],
+    "space" : "blah",
+    "title" : "bah",
+    "content" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "date" : "1607245944969",
+    "creatorName" : "Andy",
+    "__v" : 4
+}
+answer collection
+
+{
+    "_id" : ObjectId("5fcca079d46c6525c877cba7"),
+    "content" : "Hi there I need assistance please",
+    "uid" : "broh",
+    "uname" : "Manro",
+    "question" : ObjectId("5fcca078d46c6525c877cba6"),
+    "date" : "1607245945512",
+    "__v" : 0
+}
+
+user collection
+
+{
+    "_id" : ObjectId("5fc6f08610b5bdaf89f80bde"),
+    "uid" : "uid1",
+    "name" : "Andy",
+    "email" : "andy@test.hk",
+    "password" : "pwd"
+}
